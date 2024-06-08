@@ -1,0 +1,28 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+#passOne {
+    background: #263547;
+    border-radius: 5px;
+    height: 30px;
+    display: inline-block;
+    width: 45%;
+    margin-right: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#passTwo {
+    background: #263547;
+    border-radius: 5px;
+    height: 30px;
+    display: inline-block;
+    width: 45%;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.shelves {
+    text-align: center;
+    margin-top: 30px; 
+}
