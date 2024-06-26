@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+.container{
+    background-color: black;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+img{
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+#input-field{
+    display: block;
+    margin: 20px auto;
+    width: 30%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #444059;
+    border: none;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+#input-field::placeholder{
+    color: grey;
+    text-align: left;
+}
+#input-field:focus{
+    outline: none;
+}
+#publish{
+    display: block;
+    margin: 20px auto;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(100, 159, 248);
+    border: none;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+}
+.title-1{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.comments p {
+    color: black;
+    text-align: left;
+    margin: 30px 35%;
+    padding: 15px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+
+}
